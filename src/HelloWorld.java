@@ -6,5 +6,7 @@
 public class HelloWorld {
     public static void main(String[] args) { // shortcut is psvm
         System.out.println("Hello, World!");
+
+        System.out.println(DataType.FOOD);
     }
 }
