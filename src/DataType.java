@@ -66,9 +66,9 @@ public class DataType {
         System.out.println(y);
 
 
-        String _color = "black"; //variabledel on reeglid millega alustada tohib _, $ ja ei tohi alustada numbriga?
+        String _color = "black"; //variabledel on reeglid millega alustada tohib _, $ ja ei tohi alustada numbriga
 
-        int $hexaNumber = 0x2A;     // kui on 2 sõna siis hea oleks suuretähega panna neid naguNäiteksNii
+        int $hexaNumber = 0x2A;     // kui on 2 sõna siis hea oleks suuretähega panna need naguNäiteksNii
 
         float exam12_mark = 100.10f;
 
