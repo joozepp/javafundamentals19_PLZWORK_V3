@@ -6,6 +6,12 @@ public class Homework {
         int d = 8;
         int e = 6;
         int answer = (a + b) * c / d + e;
+        /**
+         * first it adds a + b
+         * then it multiplies (a + b) with C (88)
+         * after that it will divide it with D(8)
+         * then it will add just 6
+         */
         System.out.println(answer);
 
 
