@@ -11,7 +11,8 @@ public class DataType {
     long longNumber = 545454681351L; //
     short shortNumber = -32000;
     float decimalNumber = 2.4545453483645237485374684684f; //
-    double doubleNumber = 3.456d; //
+    double doubleNumber = 3.456d; // Float is of size 32 bits while double is of size 64 bits
+                                  // Hence, double can handle much bigger fractional numbers than float.
 
     // Character
     char alpha = 'F';  // singular ' , single characters only.
