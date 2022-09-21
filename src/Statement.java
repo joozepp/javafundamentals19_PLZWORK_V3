@@ -5,6 +5,8 @@
  */
 // TIP OF THE DAY: CTRL + ALT + L = AUTO ALIGN THE CODE
 
+    // Adding multiple statementes togheter is called NESTED.
+
 public class Statement {
     public static void main(String[] args) {
         int i = 8;
