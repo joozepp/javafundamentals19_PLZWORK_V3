@@ -1,3 +1,5 @@
+package exercises;
+
 public class NewRoom {
     //write a program which prints "fizz" if the number is a multiplier of 3,
     //print  "buzz" if its multiplier of 5 and prints "fizzbuzz" if the number is

@@ -1,3 +1,5 @@
+package homeworks;
+
 public class FizzBuzzOneLiner {
     public static void main(String[] args) {
         int j = 15;

@@ -1,3 +1,5 @@
+package homeworks;
+
 public class homeworkarra {
     public static void main(String[] args) {
         int[] b = {9, 27, 48, 20, 839, 11000, 27, 40};

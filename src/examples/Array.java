@@ -1,3 +1,5 @@
+package examples;
+
 /**
  *
  * @author Joozepp
@@ -8,7 +10,7 @@ public class Array {
         int a = 9;
         int[] b = {9, 27, 48, 20, 839, 11000, 27, 40};     //kantsulud märgivad ära, et ARRAY. peab panema curly brackets ka
         //single dimensional array
-        //NOTE: Array index always starts with 0.
+        //NOTE: examples.Array index always starts with 0.
         String [] fruits = {"apple", "orange", "mango", "apple", "banana", "mango"}; //java storeb array info indexidena.
 
         System.out.println(fruits[0]);
@@ -61,7 +63,60 @@ public class Array {
         //To find smallest in the array: b
 
 
+        //multi-dimensional array   x-axis ja y-axis
+        //2D-array
+        int[][] array2D = new int[3][3];  //tehtud õpsi diagrammi järgi
+        //row-1
+        array2D[0][0] = 1;
+        array2D[0][1] = 0;
+        array2D[0][2] = 1;
 
+        //row-2
+        array2D[1][0] = 2;
+        array2D[1][1] = 10;
+        array2D[1][2] = 9;
+
+        //row-3
+        array2D[2][0] = 4;
+        array2D[2][1] = 9;
+        array2D[2][2] = 8;
+
+        int[][] array2Dver2 = {{1, 0, 1}, {2, 10, 9}, {4, 9, 8}};
+
+
+
+        for(int x = 0; x < 3; x++) {
+            for(int y = 0; y < 3; y++) {
+                System.out.print(array2D[x][y] + " ");
+            }
+            System.out.println();
+        }
+
+        //3D-array = 1D + 2D array
+        //1D represents number of tables
+        //2D => array with rows and columns
+        int[][][] array3D = new int[2][3][3];
+        //TABLE-1
+        //ROW-1
+        array3D[0][0][0] = 1;
+        array3D[0][0][1] = 0;
+        array3D[0][0][2] = 1;
+
+        int[][][] arrayd3dver2 = {{{1,0,1}, {1,8,0}, {2,5,7}},
+                {{8,8,7}, {5,8,9}, {3,5,0}},
+                {{5,6,2}, {4,5,7}, {2,6,8}}
+        };
+
+        //print 3D array
+        for(int x=0; x<3;x++) {
+            for(int y=0; y<3;y++) {
+                for(int z=0;z<3;z++){
+                    System.out.print(arrayd3dver2[x][y][z] + "\t");
+                }
+                System.out.println();
+            }
+            System.out.println("\n");
+        }
 
 
     }
