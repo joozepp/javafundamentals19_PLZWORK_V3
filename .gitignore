@@ -4,6 +4,12 @@ out/
 !**/src/test/**/out/
 
 ### Eclipse ###
+
+# my stuff
+.idea/**/workspace.xml
+.idea/**/uiDesigner.xml
+
+
 .apt_generated
 .classpath
 .factorypath
