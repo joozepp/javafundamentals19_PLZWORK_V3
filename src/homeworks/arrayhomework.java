@@ -6,7 +6,7 @@ public class arrayhomework {
         int result = x[0];
 
         for(int z: x) {
-            if(z < result) {
+            if(z > result) {
                 result = z;
 
             }
