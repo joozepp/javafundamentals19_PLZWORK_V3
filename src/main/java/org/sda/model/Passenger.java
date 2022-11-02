@@ -36,7 +36,7 @@ public class Passenger extends Person {
 
     @Override
     public String getEmail() {
-        return "sda@gmail.com";
+        return "THANGSLAYER666@gmail.com";
     }
 
     public String getAddresses() {

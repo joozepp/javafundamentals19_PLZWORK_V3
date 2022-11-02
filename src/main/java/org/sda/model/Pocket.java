@@ -25,7 +25,7 @@ public class Pocket {
 
     public void setMoney(double money) {
         if (money < 0 || money > 3000) {
-            System.out.println("I don’t have enough space in my pocket for as much money!”");
+            System.out.println("I don’t have enough space in my pocket for that much moola");
         } else {
             this.money = money;
         }
